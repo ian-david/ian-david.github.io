@@ -1,339 +1,985 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 9 ]><html class="no-js oldie" lang="en"> <![endif]-->
+<!--[if IE 9 ]><html class="no-js oldie ie9" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!-->
+<html class="no-js" lang="en">
+<!--<![endif]-->
 
-  <head>
+<head>
 
+    <!--- basic page needs
+    ================================================== -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>David Okpare</title>
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>David Okpare</title>
+    <!-- mobile specific metas
+    ================================================== -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- CSS
+    ================================================== -->
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/vendor.css">
+    <link rel="stylesheet" href="css/main.css">
 
-    <!-- Custom fonts for this template -->
-    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <!-- script
+    ================================================== -->
+    <script src="js/modernizr.js"></script>
+    <script src="js/pace.min.js"></script>
 
-    <!-- Plugin CSS -->
-    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet" type="text/css">
+    <!-- favicons
+    ================================================== -->
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
 
-    <!-- Custom styles for this template -->
-    <link href="css/freelancer.min.css" rel="stylesheet">
+    <!-- devicons
+    ================================================== -->
+    <link rel="stylesheet" href="css/devicon-master/devicon.min.css">
+</head>
 
-  </head>
+<body id="top">
 
-  <body id="page-top">
+    <!-- header
+    ================================================== -->
+    <header class="s-header">
 
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg bg-secondary fixed-top text-uppercase" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">David Okpare</a>
-        <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          Menu
-          <i class="fa fa-bars"></i>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav ml-auto">
-            <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#portfolio">Portfolio</a>
-            </li>
-            <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#about">About</a>
-            </li>
-            <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#skills">Skills</a>
-            </li>
-            <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="#contact">Contact</a>
-            </li>
-            <li class="nav-item mx-0 mx-lg-1">
-              <a class="nav-link py-3 px-0 px-lg-3 rounded js-scroll-trigger" href="img/davidresume.pdf">Resume</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
-
-    <!-- Header -->
-    <header class="masthead bg-primary text-white text-center">
-      <div class="container">
-        <img class="img-fluid mb-5 d-block mx-auto profile" src="img/david.jpg" alt="">
-        <h1 class="text-uppercase mb-0">David Okpare</h1>
-        <hr class="star-light">
-        <h2 class="font-weight-light mb-0">Web Developer - Software Developer</h2>
-      </div>
-    </header>
-
-    <!-- Portfolio Grid Section -->
-    <section class="portfolio" id="portfolio">
-      <div class="container">
-        <h2 class="text-center text-uppercase text-secondary mb-0">Portfolio</h2>
-        <hr class="star-dark mb-5">
-        <div class="row">
-          <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-1">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fa fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/android.png" alt="android">
+        <div class="header-logo">
+            <a class="site-logo" href="index.html">
+                <img src="images/Text_1.png" alt="Homepage">
             </a>
-          </div>
-          <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-2">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fa fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/static-page.png" alt="">
-            </a>
-          </div>
-         <div class="col-md-6 col-lg-4">
-            <a class="portfolio-item d-block mx-auto" href="#portfolio-modal-3">
-              <div class="portfolio-item-caption d-flex position-absolute h-100 w-100">
-                <div class="portfolio-item-caption-content my-auto w-100 text-center text-white">
-                  <i class="fa fa-search-plus fa-3x"></i>
-                </div>
-              </div>
-              <img class="img-fluid" src="img/portfolio/david-okpare.png" alt="">
-            </a>
-          </div>
-          
-      
-    </section>
+        </div>
 
-    <!-- About Section -->
-    <section class="bg-primary text-white mb-0" id="about">
-      <div class="container">
-        <h2 class="text-center text-uppercase text-white">About</h2>
-        <hr class="star-light mb-5">
-        <div class="row">
-          <div class="col-lg-4 ml-auto">
-            <p class="lead">Hello, I'm David, a web and software developer, passionate about learning design and building delightful user experiences.</p>
-          </div>
-          <div class="col-lg-4 mr-auto">
-            <p class="lead">I'm currently looking for opportunities to develop myself in both web and software development, mainly in Bangalore.</p>
-          </div>
-        </div>
-        <br><br>
-        <div class="text-center mt-4">
-          <a class="btn btn-xl btn-outline-light" title="David Okpare" href="https://ian-david.github.io/davidresume.pdf">
-            <i class="fa fa-download mr-2"></i>
-            My Resumé
-          </a>
-        </div>
-      </div>
+        <nav class="header-nav">
+
+            <a href="#0" class="header-nav__close" title="close"><span>Close</span></a>
+
+            <div class="header-nav__content">
+                <h3>Navigation</h3>
+                
+                <ul class="header-nav__list">
+                    <li class="current"><a class="smoothscroll"  href="#home" title="home">Home</a></li>
+                    <li><a class="smoothscroll"  href="#about" title="about">About</a></li>
+                    <li><a class="smoothscroll"  href="#services" title="services">What I Do</a></li>
+                 <!--   <li><a class="smoothscroll"  href="#works" title="works">Works</a></li>-->
+                    <li><a class="smoothscroll"  href="#clients" title="clients">Skills</a></li>
+                    <li><a class="smoothscroll"  href="#contact" title="contact">Contact</a></li>
+                </ul>
     
-    </section>
-
-    <!-- Contact Section -->
-    <section id="skills">
-      <div class="container">
-        <h2 class="text-center text-uppercase text-secondary mb-0">Skills</h2>
-        <hr class="star-dark mb-5">
-        <div class="row">
-      <div class="col-md-3 col-sm-6">
-            <div class="progress green">
-                <span class="progress-left">
-                    <span class="progress-bar"></span>
-                </span>
-                <span class="progress-right">
-                    <span class="progress-bar"></span>
-                </span>
-                <div class="progress-value">HTML/CSS</div>
-            </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-            <div class="progress green">
-                <span class="progress-left">
-                    <span class="progress-bar"></span>
-                </span>
-                <span class="progress-right">
-                    <span class="progress-bar"></span>
-                </span>
-                <div class="progress-value">Javascript</div>
-            </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-            <div class="progress green">
-                <span class="progress-left">
-                    <span class="progress-bar"></span>
-                </span>
-                <span class="progress-right">
-                    <span class="progress-bar"></span>
-                </span>
-                <div class="progress-value">Git/GitHub</div>
-            </div>
-        </div>
-        <div class="col-md-3 col-sm-6">
-            <div class="progress green">
-                <span class="progress-left">
-                    <span class="progress-bar"></span>
-                </span>
-                <span class="progress-right">
-                    <span class="progress-bar"></span>
-                </span>
-                <div class="progress-value">C/C++</div>
-            </div>
-        </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer text-center" id="contact">
-      <div class="container">
-        <div class="row">
-          
-          <div class="col-md-6">
-            <h4 class="text-uppercase mb-4">Contact Me</h4>
-            <p class="lead mb-0">Feel free to <a href="mailto:davidian2017@gmail.com">email me.</a></p>
-          </div>
-
-          <div class="col-md-6 mb-5 mb-lg-0">
-            <h4 class="text-uppercase mb-4">Around the Web</h4>
-            <ul class="list-inline mb-0">
-              <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.facebook.com/DavidOkpare" target="_blank">
-                  <i class="fa fa-fw fa-facebook"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://codepen.io/misfitsiri/" target="_blank">
-                  <i class="fa fa-fw fa-codepen"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://twitter.com/DavidOkpare" target="_blank">
-                  <i class="fa fa-fw fa-twitter"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://www.linkedin.com/in/david-okpare" target="_blank">
-                  <i class="fa fa-fw fa-linkedin"></i>
-                </a>
-              </li>
-              <li class="list-inline-item">
-                <a class="btn btn-outline-light btn-social text-center rounded-circle" href="https://github.com/ian-david" target="_blank">
-                  <i class="fa fa-fw fa-github"></i>
-                </a>
-              </li>
-            </ul>
-          </div>
-
-
-        </div>
-      </div>
-    </footer>
-
-    <div class="copyright py-4 text-center text-white">
-      <div class="container">
-        <small>Copyright &copy; David Okpare 2018</small>
-      </div>
-    </div>
-
-    <!-- Scroll to Top Button (Only visible on small and extra-small screen sizes) -->
-    <div class="scroll-to-top d-lg-none position-fixed ">
-      <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
-        <i class="fa fa-chevron-up"></i>
-      </a>
-    </div>
-
-    <!-- Portfolio Modals -->
-
-    <!-- Portfolio Modal 1 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-1">
-      <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-          <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">CSS3 Android Logo</h2>
-              <hr class="star-dark mb-5">
-              <p data-height="754" data-theme-id="dark" data-slug-hash="mKeXoJ" data-default-tab="result" data-user="misfitsiri" data-embed-version="2" data-pen-title="Android" class="codepen">See the Pen <a href="https://codepen.io/misfitsiri/pen/mKeXoJ/">Android</a> by David Okpare (<a href="https://codepen.io/misfitsiri">@misfitsiri</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-              <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
-             <!-- <img class="img-fluid mb-5" src="img/portfolio/android.png" alt="android">-->
-              <p class="mb-5">Android logo made in CSS3 with hover animations using CSS3 transitions.</p>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                <i class="fa fa-close"></i>
-                Close Project</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Portfolio Modal 2 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-2">
-      <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-          <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">Static Page</h2>
-              <hr class="star-dark mb-5">
-              <p data-height="531" data-theme-id="dark" data-slug-hash="govqWN" data-default-tab="result" data-user="misfitsiri" data-embed-version="2" data-pen-title="Static Page" class="codepen">See the Pen <a href="https://codepen.io/misfitsiri/pen/govqWN/">Static Page</a> by David Okpare (<a href="https://codepen.io/misfitsiri">@misfitsiri</a>) on <a href="https://codepen.io">CodePen</a>.</p>
-              <script async src="https://static.codepen.io/assets/embed/ei.js"></script>
-             <!-- <img class="img-fluid mb-5" src="img/portfolio/cake.png" alt="">-->
-              <p class="mb-5">HTML and CSS Static Page</p>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                <i class="fa fa-close"></i>
-                Close Project</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Portfolio Modal 3 -->
-    <div class="portfolio-modal mfp-hide" id="portfolio-modal-3">
-      <div class="portfolio-modal-dialog bg-white">
-        <a class="close-button d-none d-md-block portfolio-modal-dismiss" href="#">
-          <i class="fa fa-3x fa-times"></i>
-        </a>
-        <div class="container text-center">
-          <div class="row">
-            <div class="col-lg-8 mx-auto">
-              <h2 class="text-secondary text-uppercase mb-0">My Portfolio Website</h2>
-              <hr class="star-dark mb-5">
-              <img class="img-fluid mb-5" src="img/portfolio/screenshot.png" alt="My website">
-              <p class="mb-5">My Portfolio Website</p>
-              <a class="btn btn-primary btn-lg rounded-pill portfolio-modal-dismiss" href="#">
-                <i class="fa fa-close"></i>
-                Close Project</a>
-            </div>
-          </div>
-        </div>
-      </div>
-    </div>
-
+                <p>Perspiciatis hic praesentium nesciunt. Et neque a dolorum <a href='#0'>voluptatem</a> porro iusto sequi veritatis libero enim. Iusto id suscipit veritatis neque reprehenderit.</p>
     
+                <ul class="header-nav__social">
+                    <li>
+                        <a href="https://facebook.com/david.okpare" target="_blank"><i class="fa fa-facebook"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/davidokpare" target="_blank"><i class="fa fa-twitter"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://instagram.com/kingdavid.ii" target="_blank"><i class="fa fa-instagram"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/ian-david" target="_blank"><i class="fa fa-github"></i></a>
+                    </li>
+                    <li>
+                        <a href="https://codepen.io/misfitsiri" target="_blank"><i class="fa fa-codepen"></i></a>
+                    </li>
+                </ul>
 
-    <!-- Bootstrap core JavaScript -->
-    <script src="vendor/jquery/jquery.min.js"></script>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+            </div> <!-- end header-nav__content -->
 
-    <!-- Plugin JavaScript -->
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+        </nav>  <!-- end header-nav -->
 
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
+        <a class="header-menu-toggle" href="#0">
+            <span class="header-menu-text">Menu</span>
+            <span class="header-menu-icon"></span>
+        </a>
 
-    <!-- Custom scripts for this template -->
-    <script src="js/freelancer.min.js"></script>
+    </header> <!-- end s-header -->
 
-  </body>
+
+    <!-- home
+    ================================================== -->
+    <section id="home" class="s-home target-section" data-parallax="scroll" data-image-src="images/hero-bg.jpg" data-natural-width=3000 data-natural-height=2000 data-position-y=center>
+
+        <div class="overlay"></div>
+        <div class="shadow-overlay"></div>
+
+        <div class="home-content">
+
+            <div class="row home-content__main">
+
+                <h3>Hi, I'm David!</h3>
+
+                <h1>
+                    I'm
+                    <span id="typed"></span>
+                    <div id="typed-strings">
+                   <span>a freelance <br>web developer.  </span>
+                    <span>passionate about design <br>and building delightful <br>user interfaces.  </span>
+                    </div>
+                </h1>
+
+                <div class="home-content__buttons">
+                    <a href="images/david-resume.pdf"  class=" btn btn--stroke">
+                        Résumé
+                    </a>
+                    <!--<a href="#about" class="smoothscroll btn btn--stroke">
+                        More About Us
+                    </a>-->
+                </div>
+
+            </div>
+
+            <div class="home-content__scroll">
+                <a href="#about" class="scroll-link smoothscroll">
+                    <span>Scroll Down</span>
+                </a>
+            </div>
+
+            <div class="home-content__line"></div>
+
+        </div> <!-- end home-content -->
+
+
+        <ul class="home-social">
+            <li>
+                <a href="https://facebook.com/david.okpare" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i><span>Facebook</span></a>
+            </li>
+            <li>
+                <a href="https://twitter.com/davidokpare" target="_blank"><i class="fa fa-twitter" aria-hidden="true"></i><span>Twiiter</span></a>
+            </li>
+            <li>
+                <a href="https://instagram.com/kingdavid.ii" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i><span>Instagram</span></a>
+            </li>
+            <li>
+                <a href="https://github.com/ian-david" target="_blank"><i class="fa fa-github" aria-hidden="true"></i><span>GitHub</span></a>
+            </li>
+            <li>
+                <a href="https://codepen.io/misfitsiri" target="_blank"><i class="fa fa-codepen" aria-hidden="true"></i><span>Codepen</span></a>
+            </li>
+        </ul> 
+        <!-- end home-social -->
+
+    </section> <!-- end s-home -->
+
+
+    <!-- about
+    ================================================== -->
+    <section id='about' class="s-about">
+
+        <div class="row section-header has-bottom-sep" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead subhead--dark">Hello There</h3>
+                <h1 class="display-1 display-1--light">I am David Okpare</h1>
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row about-desc" data-aos="fade-up">
+            <div class="col-full">
+                <p>
+                    Ever since I  was a kid, I absolutely loved computers. As I grew older my passion for computers translated into programming. I use my eye for design and my obsessive attention to detail to create pixel-perfect interfaces. More than anything I love being creative and get excited about being able to create products that will visually stun people.
+                </p>
+            </div>
+        </div> <!-- end about-desc -->
+
+      <!--  <div class="row about-stats stats block-1-4 block-m-1-2 block-mob-full" data-aos="fade-up">
+                
+            <div class="col-block stats__col ">
+                <div class="stats__count">18</div>
+                <h5>Years Old</h5>
+            </div>
+            <div class="col-block stats__col">
+                <div class="stats__count">1505</div>
+                <h5>Cups of Coffee</h5>
+            </div>
+            <div class="col-block stats__col">
+                <div class="stats__count">14</div>
+                <h5>Projects Completed</h5>
+            </div>
+            <div class="col-block stats__col">
+                <div class="stats__count">10</div>
+                <h5>Happy Clients</h5> 
+            </div>
+
+        </div>--> <!-- end about-stats -->
+
+        <div class="about__line"></div>
+
+    </section> <!-- end s-about -->
+
+
+    <!-- services
+    ================================================== -->
+    <section id='services' class="s-services">
+
+        <div class="row section-header has-bottom-sep" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead">What I Do</h3>
+                <h1 class="display-2">These are some of the things I do on and off line</h1>
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row services-list block-1-2 block-tab-full">
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                    <i class="icon-paint-brush"></i>
+                </div>
+                <div class="service-text">
+                    <h3 class="h2">Web Design</h3>
+                    <p>I enjoy creating aesthetically beautiful and functional user interfaces, at the same time not ignoring the experience the users get from the page. I create web pages using both codes and tools such as HTML5, CSS3, Javascript, jQuery, Bootstrap, Bootstrap Studio and  WordPress.
+                    </p>
+                </div>
+            </div>
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                    <i class="icon-group"></i>
+                </div>
+                <div class="service-text">
+                    <h3 class="h2">Illustration</h3>
+                    <p>When I'm not coding, I make designs for print and web works with images, lines, typography, textures, color, lighting contrasts, and shapes. I use tools such as Adobe's Photoshop, Illustrator and Muse and Corel's Graphic Suites.
+                    </p>
+                </div>
+            </div>
+
+      <!--      <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                    <i class="icon-megaphone"></i>
+                </div>  
+                <div class="service-text">
+                    <h3 class="h2">Marketing</h3>
+                    <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
+                    Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
+                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+                    </p>
+                </div>
+            </div>-->
+
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                    <i class="icon-earth"></i>
+                </div>
+                <div class="service-text">
+                    <h3 class="h2">Open Source Contributing</h3>
+                    <p>Contributing to open source can be a rewarding way to learn, teach, and build experience in just about any skill you can imagine. I often create repositories on GitHub and make my projects public and try to report issues or pull requests on other repositories.
+                    </p>
+                </div>
+            </div>
+
+           <!-- <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon">
+                    <i class="icon-cube"></i>
+                </div>
+                <div class="service-text">
+                    <h3 class="h2">Packaging Design</h3>
+                    <p>Nemo cupiditate ab quibusdam quaerat impedit magni. Earum suscipit ipsum laudantium. 
+                    Quo delectus est. Maiores voluptas ab sit natus veritatis ut. Debitis nulla cumque veritatis.
+                    Sunt suscipit voluptas ipsa in tempora esse soluta sint.
+                    </p>
+                </div>
+            </div> -->
+    
+            <div class="col-block service-item" data-aos="fade-up">
+                <div class="service-icon"><i class="icon-lego-block"></i></div>
+                <div class="service-text">
+                    <h3 class="h2">Software Development</h3>
+                    <p>I don't limit my self to just the web, but like to explore other possibilities by building softwares. I have built softwares with C, C++ and Java.
+                    </p>
+                </div>
+            </div>
+
+        </div> <!-- end services-list -->
+
+    </section> <!-- end s-services -->
+
+
+    <!-- works
+    ================================================== -->
+ <!--   <section id='works' class="s-works">
+
+        <div class="intro-wrap">
+                
+            <div class="row section-header has-bottom-sep light-sep" data-aos="fade-up">
+                <div class="col-full">
+                    <h3 class="subhead">Recent Works</h3>
+                    <h1 class="display-2 display-2--light">We love what we do, check out some of our latest works</h1>
+                </div>
+            </div>--> <!-- end section-header -->
+
+        <!-- </div> end intro-wrap -->
+
+      <!-- <div class="row works-content">
+            <div class="col-full masonry-wrap">
+                <div class="masonry">
+    
+                    <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+                                
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/android.png" class="thumb-link" title="Shutterbug" data-size="1050x700">
+                                    
+                                   <img src="images/portfolio/lady-shutterbug.jpg" 
+                                         srcset="images/portfolio/lady-shutterbug.jpg 1x, images/portfolio/lady-shutterbug@2x.jpg 2x" alt="">
+                                </a>
+                            </div>
+    
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Shutterbug
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Branding
+                                </p>
+                            </div>
+    
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                                <i class="icon-link"></i>
+                            </a>
+    
+                            <div class="item-folio__caption">
+                                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                            </div>
+    
+                        </div>
+                    </div>--> <!-- end masonry__brick -->
+
+                    <!--<div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+                                
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/gallery/g-woodcraft.jpg" class="thumb-link" title="Woodcraft" data-size="1050x700">
+                                    <img src="images/portfolio/woodcraft.jpg" 
+                                         srcset="images/portfolio/woodcraft.jpg 1x, images/portfolio/woodcraft@2x.jpg 2x" alt="">
+                                </a>
+                            </div>
+    
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Woodcraft
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Web Design
+                                </p>
+                            </div>
+    
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                                <i class="icon-link"></i>
+                            </a>
+    
+                            <div class="item-folio__caption">
+                                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                            </div>
+    
+                        </div>
+                    </div>--> <!-- end masonry__brick -->
+    
+                 <!--   <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+                                
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/gallery/g-beetle.jpg" class="thumb-link" title="The Beetle Car" data-size="1050x700">
+                                    <img src="images/portfolio/the-beetle.jpg"
+                                         srcset="images/portfolio/the-beetle.jpg 1x, images/portfolio/the-beetle@2x.jpg 2x" alt="">
+                                </a>
+                            </div>
+    
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    The Beetle
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Web Development
+                                </p>
+                            </div>
+    
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                                <i class="icon-link"></i>
+                            </a>
+    
+                            <div class="item-folio__caption">
+                                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                            </div>
+    
+                        </div>
+                    </div> --><!-- end masonry__brick -->
+    
+                  <!--  <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+                                
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/gallery/g-grow-green.jpg" class="thumb-link" title="Grow Green" data-size="1050x700">
+                                    <img src="images/portfolio/grow-green.jpg" 
+                                         srcset="images/portfolio/grow-green.jpg 1x, images/portfolio/grow-green@2x.jpg 2x" alt="">
+                                </a>
+                            </div>
+    
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Grow Green
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Branding
+                                </p>
+                            </div>
+    
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                                <i class="icon-link"></i>
+                            </a>
+    
+                            <div class="item-folio__caption">
+                                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                            </div>
+    
+                        </div>
+                    </div>--> <!-- end masonry__brick -->
+
+                  <!--  <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+                                
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/gallery/g-guitarist.jpg" class="thumb-link" title="Guitarist" data-size="1050x700">
+                                    <img src="images/portfolio/guitarist.jpg" 
+                                         srcset="images/portfolio/guitarist.jpg 1x, images/portfolio/guitarist@2x.jpg 2x" alt="">
+                                </a>
+                            </div>
+    
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Guitarist
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Web Design
+                                </p>
+                            </div>
+    
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                                <i class="icon-link"></i>
+                            </a>
+    
+                            <div class="item-folio__caption">
+                                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                            </div>
+    
+                        </div>
+                    </div>--> <!-- end masonry__brick -->
+    
+                  <!--  <div class="masonry__brick" data-aos="fade-up">
+                        <div class="item-folio">
+                                
+                            <div class="item-folio__thumb">
+                                <a href="images/portfolio/gallery/g-palmeira.jpg" class="thumb-link" title="Palmeira" data-size="1050x700">
+                                    <img src="images/portfolio/palmeira.jpg"
+                                         srcset="images/portfolio/palmeira.jpg 1x, images/portfolio/palmeira@2x.jpg 2x" alt="">
+                                </a>
+                            </div>
+    
+                            <div class="item-folio__text">
+                                <h3 class="item-folio__title">
+                                    Palmeira
+                                </h3>
+                                <p class="item-folio__cat">
+                                    Web Design
+                                </p>
+                            </div>
+    
+                            <a href="https://www.behance.net/" class="item-folio__project-link" title="Project link">
+                                <i class="icon-link"></i>
+                            </a>
+    
+                            <div class="item-folio__caption">
+                                <p>Vero molestiae sed aut natus excepturi. Et tempora numquam. Temporibus iusto quo.Unde dolorem corrupti neque nisi.</p>
+                            </div>
+    
+                        </div>
+                    </div> --><!-- end masonry__brick -->
+
+                <!-- </div>  end masonry -->
+            <!-- </div> end col-full -->
+        <!-- </div> end works-content 
+
+    </section>--> <!-- end s-works -->
+
+
+    <!-- clients
+    ================================================== -->
+    <section id="clients" class="s-clients">
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead">My Skills</h3>
+                <h1 class="display-2">These are some of the
+                technologies I work with</h1>
+            </div>
+        </div> <!-- end section-header -->
+
+        <div class="row clients-outer" data-aos="fade-up">
+            <div class="col-full">
+                <div class="clients">
+                    
+                    <a href="#0" title="" class="clients__slide"> <i class="devicon devicon-html5-plain"></i></a>
+                    <a href="#0" title="" class="clients__slide"><i class="devicon devicon-css3-plain"></i></a>
+                  <!--  <a href="#0" title="" class="clients__slide"><i class="devicon devicon devicon-c-plain"></i></a>
+                    <i class="devicon devicon-cplusplus-plain"></i></a>-->
+                    
+                    <a href="#0" title="" class="clients__slide"><i class="devicon devicon-git-plain"></i></a>
+                    <a href="#0" title="" class="clients__slide"><i class="devicon devicon-github-plain"></i></a>
+                    <a href="#0" title="" class="clients__slide"><i class="devicon devicon-javascript-plain"></i></a>
+                    <a href="#0" title="" class="clients__slide"> <i class="devicon devicon-wordpress-plain"></i></a>
+                    <a href="#0" title="" class="clients__slide"><i class="devicon devicon-illustrator-plain"></i></a>
+                    <a href="#0" title="" class="clients__slide"><i class="devicon devicon-photoshop-plain"></i></a>
+                </div> <!-- end clients -->
+            </div> <!-- end col-full -->
+        </div> <!-- end clients-outer -->
+
+        <!-- <div class="row clients-testimonials" data-aos="fade-up">
+            <div class="col-full">
+                <div class="testimonials">
+
+                    <div class="testimonials__slide">
+
+                        <p>Qui ipsam temporibus quisquam vel. Maiores eos cumque distinctio nam accusantium ipsum. 
+                        Laudantium quia consequatur molestias delectus culpa facere hic dolores aperiam. Accusantium quos qui praesentium corpori.
+                        Excepturi nam cupiditate culpa doloremque deleniti repellat.</p>
+
+                        <img src="images/avatars/user-01.jpg" alt="Author image" class="testimonials__avatar">
+                        <div class="testimonials__info">
+                            <span class="testimonials__name">Tim Cook</span> 
+                            <span class="testimonials__pos">CEO, Apple</span>
+                        </div>
+
+                    </div>
+
+                    <div class="testimonials__slide">
+                        
+                        <p>Excepturi nam cupiditate culpa doloremque deleniti repellat. Veniam quos repellat voluptas animi adipisci.
+                        Nisi eaque consequatur. Quasi voluptas eius distinctio. Atque eos maxime. Qui ipsam temporibus quisquam vel.</p>
+
+                        <img src="images/avatars/user-05.jpg" alt="Author image" class="testimonials__avatar">
+                        <div class="testimonials__info">
+                            <span class="testimonials__name">Sundar Pichai</span> 
+                            <span class="testimonials__pos">CEO, Google</span>
+                        </div>
+
+                    </div>
+
+                    <div class="testimonials__slide">
+                        
+                        <p>Repellat dignissimos libero. Qui sed at corrupti expedita voluptas odit. Nihil ea quia nesciunt. Ducimus aut sed ipsam.  
+                        Autem eaque officia cum exercitationem sunt voluptatum accusamus. Quasi voluptas eius distinctio.</p>
+
+                        <img src="images/avatars/user-02.jpg" alt="Author image" class="testimonials__avatar">
+                        <div class="testimonials__info">
+                            <span class="testimonials__name">Satya Nadella</span> 
+                            <span class="testimonials__pos">CEO, Microsoft</span>
+                        </div>
+
+                    </div>
+
+                </div>--><!-- end testimonials -->
+                
+            <!-- </div> end col-full -->
+        <!-- </div> end client-testimonials -->
+
+    </section> 
+    <!-- end s-clients -->
+
+
+    <!-- contact
+    ================================================== -->
+    <section id="contact" class="s-contact">
+
+        <div class="overlay"></div>
+        <div class="contact__line"></div>
+
+        <div class="row section-header" data-aos="fade-up">
+            <div class="col-full">
+                <h3 class="subhead">Contact Me</h3>
+                <h1 class="display-2 display-2--light">Reach out for a new project or just say hello</h1>
+            </div>
+        </div>
+
+        <div class="row contact-content" data-aos="fade-up">
+            
+          <!--  <div class="contact-primary">
+
+                <h3 class="h6">Send Us A Message</h3>
+
+                <form name="contactForm" id="contactForm" method="post" action="" novalidate="novalidate">
+                    <fieldset>
+    
+                    <div class="form-field">
+                        <input name="contactName" type="text" id="contactName" placeholder="Your Name" value="" minlength="2" required="" aria-required="true" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <input name="contactEmail" type="email" id="contactEmail" placeholder="Your Email" value="" required="" aria-required="true" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="" class="full-width">
+                    </div>
+                    <div class="form-field">
+                        <textarea name="contactMessage" id="contactMessage" placeholder="Your Message" rows="10" cols="50" required="" aria-required="true" class="full-width"></textarea>
+                    </div>
+                    <div class="form-field">
+                        <button class="full-width btn--primary">Submit</button>
+                        <div class="submit-loader">
+                            <div class="text-loader">Sending...</div>
+                            <div class="s-loader">
+                                <div class="bounce1"></div>
+                                <div class="bounce2"></div>
+                                <div class="bounce3"></div>
+                            </div>
+                        </div>
+                    </div>
+    
+                    </fieldset>
+                </form>-->
+
+                <!-- contact-warning -->
+               <!-- <div class="message-warning">
+                    Something went wrong. Please try again.
+                </div> -->
+            
+                <!-- contact-success -->
+              <!--  <div class="message-success">
+                    Your message was sent, thank you!<br>
+                </div>-->
+
+           <!-- </div>--> <!-- end contact-primary -->
+
+            <div class="contact-secondary">
+                <div class="contact-info">
+
+                    <h3 class="h6 hide-on-fullwidth">Contact Info</h3>
+
+                  <!--  <div class="cinfo">
+                        <h5>Where to Find Us</h5>
+                        <p>
+                            1600 Amphitheatre Parkway<br>
+                            Mountain View, CA<br>
+                            94043 US
+                        </p>
+                    </div>-->
+
+                    <div class="cinfo">
+                        <h5>Email Me At</h5>
+                        <p>
+                            okparedave@gmail.com<br>
+                            davidian2017@outlook.com
+                        </p>
+                    </div>
+
+                   <!-- <div class="cinfo">
+                        <h5>Call Us At</h5>
+                        <p>
+                            Phone: (+91) 555 1212<br>
+                            Mobile: (+63) 555 0100<br>
+                            Fax: (+63) 555 0101
+                        </p>
+                    </div>-->
+
+                    <ul class="contact-social">
+                        <li>
+                            <a href="#"><i class="fa fa-facebook" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-github" aria-hidden="true"></i></a>
+                        </li>
+                        <li>
+                            <a href="#"><i class="fa fa-codepen" aria-hidden="true"></i></a>
+                        </li>
+                    </ul> <!-- end contact-social -->
+
+                </div> <!-- end contact-info -->
+            </div> <!-- end contact-secondary -->
+
+        </div> <!-- end contact-content -->
+
+    </section> <!-- end s-contact -->
+
+
+    <!-- footer
+    ================================================== -->
+   <!-- <footer>-->
+
+       <!-- <div class="row footer-main">
+
+            <div class="col-six tab-full left footer-desc">
+
+                <div class="footer-logo"></div>
+                Proin eget tortor risus. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Nulla porttitor accumsan tincidunt. Nulla porttitor accumsan tincidunt. Quaerat voluptas autem necessitatibus vitae aut.
+
+            </div>
+
+            <div class="col-six tab-full right footer-subscribe">
+
+                <h4>Get Notified</h4>
+                <p>Quia quo qui sed odit. Quaerat voluptas autem necessitatibus vitae aut non alias sed quia. Ut itaque enim optio ut excepturi deserunt iusto porro.</p>
+
+                <div class="subscribe-form">
+                    <form id="mc-form" class="group" novalidate="true">
+                        <input type="email" value="" name="EMAIL" class="email" id="mc-email" placeholder="Email Address" required="">
+                        <input type="submit" name="subscribe" value="Subscribe">
+                        <label for="mc-email" class="subscribe-message"></label>
+                    </form>
+                </div>
+
+            </div>
+
+        </div>--> <!-- end footer-main -->
+
+       <!-- <div class="row footer-bottom">
+
+            <div class="col-twelve">
+                <div class="copyright">
+                    <span>© Copyright Glint 2017</span> 
+                    <span>Site Template by <a href="https://www.colorlib.com/">Colorlib</a></span>	
+                </div>
+
+                <div class="go-top">
+                    <a class="smoothscroll" title="Back to Top" href="#top"><i class="icon-arrow-up" aria-hidden="true"></i></a>
+                </div>
+            </div>
+
+        </div> --><!-- end footer-bottom -->
+
+    <!--</footer>--> <!-- end footer -->
+
+
+    <!-- photoswipe background
+    ================================================== -->
+    <div aria-hidden="true" class="pswp" role="dialog" tabindex="-1">
+
+        <div class="pswp__bg"></div>
+        <div class="pswp__scroll-wrap">
+
+            <div class="pswp__container">
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+                <div class="pswp__item"></div>
+            </div>
+
+            <div class="pswp__ui pswp__ui--hidden">
+                <div class="pswp__top-bar">
+                    <div class="pswp__counter"></div><button class="pswp__button pswp__button--close" title="Close (Esc)"></button> <button class="pswp__button pswp__button--share" title=
+                    "Share"></button> <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button> <button class="pswp__button pswp__button--zoom" title=
+                    "Zoom in/out"></button>
+                    <div class="pswp__preloader">
+                        <div class="pswp__preloader__icn">
+                            <div class="pswp__preloader__cut">
+                                <div class="pswp__preloader__donut"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                    <div class="pswp__share-tooltip"></div>
+                </div><button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)"></button> <button class="pswp__button pswp__button--arrow--right" title=
+                "Next (arrow right)"></button>
+                <div class="pswp__caption">
+                    <div class="pswp__caption__center"></div>
+                </div>
+            </div>
+
+        </div>
+
+    </div> <!-- end photoSwipe background -->
+
+
+    <!-- preloader
+    ================================================== -->
+    <div id="preloader">
+        <div id="loader">
+            <div class="line-scale-pulse-out">
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+                <div></div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Java Script
+    ================================================== -->
+    <script>
+    
+(function () {
+   'use strict';
+	
+	// WAIT FOR ALL TO BE LOADED
+	window.onload = function() {
+		
+		// add loaded class to html
+		var root = document.documentElement;
+		root.className += ' loaded';
+
+		// TYPING EFFECT
+		Typed.new('#typed', {
+            stringsElement: document.getElementById('typed-strings'),
+			loop: true,
+			typeSpeed: 7,
+			backSpeed: 2,
+			startDelay: 1000,
+			backDelay: 2200
+        });
+	}; // all loaded
+	
+	  
+}());
+
+
+
+
+
+/*
+	PLUGINS
+*/
+
+
+
+! function(t, s, e) {
+	"use strict";
+	var i = function(t, s) {
+		var i = this;
+		this.el = t, this.options = {}, Object.keys(r).forEach(function(t) {
+			i.options[t] = r[t]
+		}), Object.keys(s).forEach(function(t) {
+			i.options[t] = s[t]
+		}), this.isInput = "input" === this.el.tagName.toLowerCase(), this.attr = this.options.attr, this.showCursor = !this.isInput && this.options.showCursor, this.elContent = this.attr ? this.el.getAttribute(this.attr) : this.el.textContent, this.contentType = this.options.contentType, this.typeSpeed = this.options.typeSpeed, this.startDelay = this.options.startDelay, this.backSpeed = this.options.backSpeed, this.backDelay = this.options.backDelay, e && this.options.stringsElement instanceof e ? this.stringsElement = this.options.stringsElement[0] : this.stringsElement = this.options.stringsElement, this.strings = this.options.strings, this.strPos = 0, this.arrayPos = 0, this.stopNum = 0, this.loop = this.options.loop, this.loopCount = this.options.loopCount, this.curLoop = 0, this.stop = !1, this.cursorChar = this.options.cursorChar, this.shuffle = this.options.shuffle, this.sequence = [], this.build()
+	};
+	i.prototype = {
+		constructor: i,
+		init: function() {
+			var t = this;
+			t.timeout = setTimeout(function() {
+				for (var s = 0; s < t.strings.length; ++s) t.sequence[s] = s;
+				t.shuffle && (t.sequence = t.shuffleArray(t.sequence)), t.typewrite(t.strings[t.sequence[t.arrayPos]], t.strPos)
+			}, t.startDelay)
+		},
+		build: function() {
+			var t = this;
+			if (this.showCursor === !0 && (this.cursor = s.createElement("span"), this.cursor.className = "typed-cursor", this.cursor.innerHTML = this.cursorChar, this.el.parentNode && this.el.parentNode.insertBefore(this.cursor, this.el.nextSibling)), this.stringsElement) {
+				this.strings = [], this.stringsElement.style.display = "none";
+				var e = Array.prototype.slice.apply(this.stringsElement.children);
+				e.forEach(function(s) {
+					t.strings.push(s.innerHTML)
+				})
+			}
+			this.init()
+		},
+		typewrite: function(t, s) {
+			if (this.stop !== !0) {
+				var e = Math.round(70 * Math.random()) + this.typeSpeed,
+					i = this;
+				i.timeout = setTimeout(function() {
+					var e = 0,
+						r = t.substr(s);
+					if ("^" === r.charAt(0)) {
+						var o = 1;
+						/^\^\d+/.test(r) && (r = /\d+/.exec(r)[0], o += r.length, e = parseInt(r)), t = t.substring(0, s) + t.substring(s + o)
+					}
+					if ("html" === i.contentType) {
+						var n = t.substr(s).charAt(0);
+						if ("<" === n || "&" === n) {
+							var a = "",
+								h = "";
+							for (h = "<" === n ? ">" : ";"; t.substr(s + 1).charAt(0) !== h && (a += t.substr(s).charAt(0), s++, !(s + 1 > t.length)););
+							s++, a += h
+						}
+					}
+					i.timeout = setTimeout(function() {
+						if (s === t.length) {
+							if (i.options.onStringTyped(i.arrayPos), i.arrayPos === i.strings.length - 1 && (i.options.callback(), i.curLoop++, i.loop === !1 || i.curLoop === i.loopCount)) return;
+							i.timeout = setTimeout(function() {
+								i.backspace(t, s)
+							}, i.backDelay)
+						} else {
+							0 === s && i.options.preStringTyped(i.arrayPos);
+							var e = t.substr(0, s + 1);
+							i.attr ? i.el.setAttribute(i.attr, e) : i.isInput ? i.el.value = e : "html" === i.contentType ? i.el.innerHTML = e : i.el.textContent = e, s++, i.typewrite(t, s)
+						}
+					}, e)
+				}, e)
+			}
+		},
+		backspace: function(t, s) {
+			if (this.stop !== !0) {
+				var e = Math.round(70 * Math.random()) + this.backSpeed,
+					i = this;
+				i.timeout = setTimeout(function() {
+					if ("html" === i.contentType && ">" === t.substr(s).charAt(0)) {
+						for (var e = "";
+							"<" !== t.substr(s - 1).charAt(0) && (e -= t.substr(s).charAt(0), s--, !(s < 0)););
+						s--, e += "<"
+					}
+					var r = t.substr(0, s);
+					i.attr ? i.el.setAttribute(i.attr, r) : i.isInput ? i.el.value = r : "html" === i.contentType ? i.el.innerHTML = r : i.el.textContent = r, s > i.stopNum ? (s--, i.backspace(t, s)) : s <= i.stopNum && (i.arrayPos++, i.arrayPos === i.strings.length ? (i.arrayPos = 0, i.shuffle && (i.sequence = i.shuffleArray(i.sequence)), i.init()) : i.typewrite(i.strings[i.sequence[i.arrayPos]], s))
+				}, e)
+			}
+		},
+		shuffleArray: function(t) {
+			var s, e, i = t.length;
+			if (i)
+				for (; --i;) e = Math.floor(Math.random() * (i + 1)), s = t[e], t[e] = t[i], t[i] = s;
+			return t
+		},
+		reset: function() {
+			var t = this;
+			clearInterval(t.timeout);
+			this.el.getAttribute("id");
+			this.el.textContent = "", "undefined" != typeof this.cursor && "undefined" != typeof this.cursor.parentNode && this.cursor.parentNode.removeChild(this.cursor), this.strPos = 0, this.arrayPos = 0, this.curLoop = 0, this.options.resetCallback()
+		}
+	}, i["new"] = function(t, e) {
+		var r = Array.prototype.slice.apply(s.querySelectorAll(t));
+		r.forEach(function(t) {
+			var s = t._typed,
+				r = "object" == typeof e && e;
+			s && s.reset(), t._typed = s = new i(t, r), "string" == typeof e && s[e]()
+		})
+	}, e && (e.fn.typed = function(t) {
+		return this.each(function() {
+			var s = e(this),
+				r = s.data("typed"),
+				o = "object" == typeof t && t;
+			r && r.reset(), s.data("typed", r = new i(this, o)), "string" == typeof t && r[t]()
+		})
+	}), t.Typed = i;
+	var r = {
+		strings: ["These are the default values", "Try them", "Use your own!", ".."],
+		stringsElement: null,
+		typeSpeed: 0,
+		startDelay: 0,
+		backSpeed: 0,
+		shuffle: !1,
+		backDelay: 500,
+		loop: !1,
+		loopCount: !1,
+		showCursor: !0,
+		cursorChar: "|",
+		attr: null,
+		contentType: "html",
+		callback: function() {},
+		preStringTyped: function() {},
+		onStringTyped: function() {},
+		resetCallback: function() {}
+	}
+}(window, document, window.jQuery);
+    
+    </script>
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
 
 </html>
